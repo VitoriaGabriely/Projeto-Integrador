@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Integrador</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+
+
+</head>
+
+<body>
+
+    <div class="cabecalho">
+        <div class="logo">
+            <img src="Imagens/logo.png" width="50px">
+        </div>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item"> <a href="2" class="nav-link"> Célula Animal </a> </li>
+                <li class="nav-item"> <a href="#" class="nav-link"> Célula Vegetal </a> </li>
+                <li class="nav-item"> <a href="#01" class="nav-link"> Quiz </a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="conteudo">
+
+
+        <section class="animal" id="2">
+
+            <div class="texto_animal">
+
+                <h2> Célula Animal </h2>
+                <p style="font-size: 20px;"> A célula animal é uma célula eucarionte encontrada nos organismos do reino
+                    Animalia. Como todas as células eucariontes, ela possui um núcleo definido e organelas
+                    celulares,
+                    como complexo golgiense, mitocôndrias e lisossomos. A célula animal apresenta membrana
+                    plasmática e
+                    citoplasma, assim como todos os outros tipos celulares. Por ser uma célula eucarionte, ela
+                    apresenta
+                    também um núcleo definido e as organelas celulares, sendo, portanto, uma célula de grande
+                    complexidade
+                    quando comparada à célula procarionte.
+                </p>
+
+            </div>
+
+            <img src="Imagens/celulaanimal.webp">
+
+        </section>
+
+        <section class="vegetal">
+
+            <div class="texto_vegetal">
+
+                <h2> Célula Vegetal </h2>
+                <p style="font-size: 20px;"> A célula vegetal é eucariótica e, assim como a célula animal, é constituída
+                    por uma membrana plasmática, um citoplasma e um núcleo. Esses dois tipos de célula também apresentam
+                    algumas organelas em comum, como a mitocôndria, retículo endoplasmático liso e rugoso, ribossomos,
+                    sistema golgiense e peroxissomos.
+
+                    Em relação às diferenças entre ambas, a célula vegetal possui parede celular, plastos, glioxissomas
+                    e vacúolos de suco celular, ausentes na célula animal. Esta, por sua vez, apresenta lisossomos,
+                    ausentes na vegetal. Aqui destacaremos as estruturas presentes na célula vegetal e ausentes na
+                    célula animal.
+                </p>
+
+            </div>
+
+            <img src="Imagens/celulavegetal.webp">
+
+        </section>
+
+
+    </div>
+    <section class="areavideo">
+        <div class="chamado">
+            <p>VEM APRENDER UM POUCO MAIS DESSAS CÉLULAS</p>
+        </div>
+
+        <p>Preparamos um vídeo bem dinâmico para vocês entenderem com facilidade esse assunto. Clica aí e confere!</p>
+
+        <video></video>
+
+    </section>
+
+
+
+    <section class="QUIZ" id="01">
+
+
+
+        <h1 class="tituloquiz">TESTE SEU CONHECIMENTO</h1>
+
+        <div class="quiz_container">
+
+            <section id="p0">
+                <h3>1 - As células animais e vegetais, apesar de diferentes, apresentam algumas semelhanças entre si.
+                    Essas células apresentam em comum, por exemplo, o fato de serem:</h3>
+                <label>
+                    <input type="radio" value="1" name="p0" onclick="resposta(0, this)">células procariontes
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0" onclick="resposta(0, this)">células autotróficas
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p0" onclick="resposta(0, this)">células eucariontes
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p0" onclick="resposta(0, this)">células heterotróficas
+                </label>
+            </section>
+
+            <section id="p1">
+                <h3>2 - Qual das organelas celulares abaixo pode ser encontrada em células animais, vegetais e
+                    bacterianas?</h3>
+                <label>
+                    <input type="radio" value="1" name="p1" onclick="resposta(1, this)">Ribossomo
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1" onclick="resposta(1, this)">Mitocôndria
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p1" onclick="resposta(1, this)">Cloroplasto
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p1" onclick="resposta(1, this)">Leucoplasto
+                </label>
+            </section>
+
+            <section id="p2">
+                <h3>3 - (PUC-RJ) A nutrição da célula eucariótica animal depende da absorção de substâncias presentes no
+                    ambiente extracelular. A estrutura responsável pelo controle da entrada de nutrientes nessas células
+                    é o(a):</h3>
+                <label>
+                    <input type="radio" value="1" name="p2" onclick="resposta(2, this)">Núcleo
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p2" onclick="resposta(2, this)">Retículo endoplasmático
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p2" onclick="resposta(2, this)">complexo de Golgi
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p2" onclick="resposta(2, this)">Membrana plasmática
+                </label>
+            </section>
+
+            <section id="p3">
+                <h3>4 - (Faap) Comparando uma célula procariótica com células eucarióticas vegetal e animal, em comum, as
+                    três apresentam:</h3>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="resposta(3, this)">Mitocôndrias, centríolos e
+                    flagelos
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="resposta(3, this)">Membrana plasmática, ribossomos
+                    e cromatina
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="resposta(3, this)">Membrana esquelética, ribossomos
+                    e cromatina
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p3" onclick="resposta(3, this)">Parede celular celulósica,
+                    membrana plasmática e lisossomos
+                </label>
+            </section>
+
+
+
+            <section id="p4">
+                <h3>5 - Quais das organelas abaixo diferenciam uma célula animal de uma célula vegetal:</h3>
+                <label>
+                    <input type="radio" value="1" name="p4" onclick="resposta(4, this)">Ribossomos, mitocôndrias e
+                    complexo de golgi.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4" onclick="resposta(4, this)">Citoplasma, ribossomos e
+                    complexo de golgi.
+                </label>
+                <label>
+                    <input type="radio" value="33" name="p4" onclick="resposta(4, this)">Retículo endoplasmático, núcleo
+                    e mitocôndrias.
+                </label>
+                <label>
+                    <input type="radio" value="4" name="p4" onclick="resposta(4, this)">Parede celular, plastos e
+                    vacúolo.
+                </label>
+            </section>
+
+            <button onclick="corrigir()">CORRIGIR</button>
+            <h2>acertos: <span id="resultado"></span></h2>
+
+            <script src="JS/script.js"></script>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <footer>
+        <div id="footer_content">
+            <div class="criadores">
+                <h3> Criadoras: </h3>
+                <p> Vitória </p>
+                <p> Lavínia </p>
+                <p> Eduarda </p>
+                <p> Nathalia </p>
+
+            </div>
+
+            <div class="projeto">
+
+                <h3 style="font-size: 30px;"> Projeto</h3>
+                <h3 style="font-size: 30px;"> Integrador </h3>
+            </div>
+
+            <div class="orientadores">
+                <h3> Orientadoras </h3>
+                <p> Alvaro Hermano</p>
+                <p> Andreia Pereira </p>
+                <p> Thaisa </p>
+            </div>
+
+        </div>
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
